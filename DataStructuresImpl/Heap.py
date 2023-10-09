@@ -39,16 +39,3 @@ class minHeap:
 			self.siftDown()
 		else:
 			self.array.pop()
-
-arr = [48, 12, 24, 7, 8, -5, 24, 391, 24, 56, 2, 6, 8, 41]
-heap = minHeap(arr)
-print(heap)
-heap.insert(-3)
-print(heap)
-
-while (len(str(heap))>2):
-	heap.remove()
-	print(heap)
-
-arr.sort()
-print(arr)
